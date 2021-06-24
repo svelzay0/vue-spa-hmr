@@ -62,7 +62,7 @@
 /******/ 	}
 /******/
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "22dcc2e18828fa3808d3"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "b023179e3604cdc9be30"; // eslint-disable-line no-unused-vars
 /******/ 	var hotRequestTimeout = 10000;
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule; // eslint-disable-line no-unused-vars
@@ -25622,10 +25622,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _route_config_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./route.config.js */ "./src/route.config.js");
 /* harmony import */ var _style_index_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./style/index.css */ "./src/style/index.css");
 /* harmony import */ var _style_index_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_style_index_css__WEBPACK_IMPORTED_MODULE_1__);
-/**
- * 主程序入口
- * by weicai
- */
 
 
 if (true) {
@@ -25654,13 +25650,11 @@ __webpack_require__.r(__webpack_exports__);
 
 vue__WEBPACK_IMPORTED_MODULE_0___default.a.use(vue_router__WEBPACK_IMPORTED_MODULE_1__["default"]);
 
-// 注册视图组件
 Object.keys(_src_views_index__WEBPACK_IMPORTED_MODULE_2__).forEach(key => {
   const view = _src_views_index__WEBPACK_IMPORTED_MODULE_2__[key];
   vue__WEBPACK_IMPORTED_MODULE_0___default.a.component(key, view);
 });
 
-// 定义路由
 const routes = [
   {
     path: "/Home",
@@ -25672,7 +25666,6 @@ const routes = [
   }
 ];
 
-// 创建router实例
 const router = new vue_router__WEBPACK_IMPORTED_MODULE_1__["default"]({ routes });
 
 new vue__WEBPACK_IMPORTED_MODULE_0___default.a({ router }).$mount("#app");
@@ -25876,11 +25869,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _About_vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./About.vue */ "./src/views/About.vue");
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "About", function() { return _About_vue__WEBPACK_IMPORTED_MODULE_1__["default"]; });
 
-/**
- * 视图模块
- * 主要视图,包括Home/Achievement/Tools/Blog/About
- * by weicai
- */
 
 
 
